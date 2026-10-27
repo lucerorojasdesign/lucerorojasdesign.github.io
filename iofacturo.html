@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ioFacturo Case Study - Lucero Rojas</title>
+<meta name="description" content="How I turned fragmented country-specific invoicing experiences into a scalable product and shared design foundation for Latin America.">
+<meta property="og:title" content="ioFacturo Case Study - Lucero Rojas">
+<meta property="og:description" content="How I turned fragmented country-specific invoicing experiences into a scalable product and shared design foundation for Latin America.">
+<meta property="og:image" content="https://lucerorojasdesign.github.io/assets/img/og-iofacturo.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://lucerorojasdesign.github.io/work/iofacturo.html">
+<meta property="og:type" content="website">
+<meta name="twitter:image" content="https://lucerorojasdesign.github.io/assets/img/og-iofacturo.jpg">
+<link rel="canonical" href="https://lucerorojasdesign.github.io/work/iofacturo.html">
+<meta name="theme-color" content="#0E4E5C">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body class="cs-wide">
+<a class="skip" href="#main">Skip to content</a>
+
+<nav class="nav nav--hero" aria-label="Main" data-offset="80">
+  <div class="wrap nav__in">
+    <a class="logo" href="../index.html" aria-label="Lucero Rojas, home">Lucero<span aria-hidden="true">*</span></a>
+    <div class="nav__links">
+      <a href="../index.html#work">Work</a>
+      <a href="../index.html#about">About</a>
+      <a href="https://drive.google.com/file/d/1FefpyBtR9SdfBJnohA6IZ15ghc4XHnws/view?usp=sharing" target="_blank" rel="noopener">Resume ↗</a>
+    </div>
+    <a class="btn btn--accent btn--sm" href="../index.html#contact">Let’s talk <span class="arr" aria-hidden="true">→</span></a>
+  </div>
+  <span class="progress" aria-hidden="true"></span>
+</nav>
+
+<main id="main">
+
+<header class="cs-hero on-field">
+  <div class="wrap cs-hero__in">
+    <div class="tag-row">
+      <span class="pill pill--fill" style="font-family:var(--f-mono);letter-spacing:.08em">01 - ioFacturo</span>
+      <div class="tags-o tags-o--hero"><span>GoSocket</span><span>Electronic invoicing</span></div>
+    </div>
+    <h1 class="display h1" data-split>Turning <em>patches</em> into a product.</h1>
+    <p class="lead" data-reveal>Transforming fragmented country-specific invoicing experiences into a more cohesive product built to scale across Latin America.</p>
+    <div class="cs-hero__media">
+      <div class="ba">
+        <figure class="ph ph--dark ba__before" data-label="Legacy invoicing portal"><img src="../assets/img/iofacturo/before.png" alt="Legacy invoicing portal" onerror="this.remove()"></figure>
+        <figure class="ph ph--field ba__after" data-label="Redesigned ioFacturo dashboard"><img src="../assets/img/iofacturo/after.png" alt="Redesigned ioFacturo dashboard" onerror="this.remove()"></figure>
+        <span class="ba__line"></span>
+        <span class="ba__knob" aria-hidden="true">↔</span>
+        <span class="ba__tag ba__tag--l">Before</span><span class="ba__tag ba__tag--r">After</span>
+        <input id="ba-io" type="range" min="0" max="100" value="50" aria-label="Compare the legacy portal with the redesigned dashboard">
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- OVERVIEW -->
+<section class="wrap" style="padding-top:56px">
+  <dl class="meta" style="--cols:5">
+    <div><dt>Role</dt><dd>Product Designer</dd></div>
+    <div><dt>Scope</dt><dd>Product Experience, Information Architecture, UX/UI, Design System</dd></div>
+    <div><dt>Collaboration</dt><dd>Product Owners, Tech Lead, Development Team, and Business Stakeholders</dd></div>
+    <div><dt>Markets</dt><dd>Latin America</dd></div>
+    <div><dt>Status</dt><dd>Launched progressively across markets</dd></div>
+  </dl>
+</section>
+
+<section class="wrap sec">
+  <div class="sec__grid">
+    <p class="eyebrow sec__label">Overview</p>
+    <div class="sec__main">
+      <h2 class="h2" data-reveal>From scattered solutions to a <em>shared</em> product experience.</h2>
+      <p class="body" data-reveal>When I joined GoSocket, electronic invoicing already existed across several Latin American markets but not as a unified product.</p>
+      <p class="body" data-reveal>The experience was distributed across country-specific widgets embedded within a larger portal. As the business evolved, new functionality had often been added to existing solutions independently, creating differences in structure, navigation, and interface patterns.</p>
+      <p class="body" data-reveal>At the same time, the company was moving toward a new technical architecture based on microservices. This created an opportunity to rethink the invoicing experience and build a product with a clearer structure, shared design foundations, and the flexibility to support different market requirements.</p>
+    </div>
+  </div>
+</section>
+
+<!-- STARTING POINT -->
+<section class="wrap sec">
+  <div class="sec__grid">
+    <p class="eyebrow sec__label">The starting point</p>
+    <div class="sec__main">
+      <h2 class="h2" data-reveal>A product built in <em>pieces.</em></h2>
+      <p class="body" data-reveal>Electronic invoicing functionality already existed, but it lived as separate country-specific experiences within a larger portal.</p>
+      <p class="body" data-reveal>Depending on the selected country, users could encounter different interfaces and patterns. Functionality had evolved over time through individual additions and market-specific solutions rather than through a shared product structure.</p>
+      <p class="body" data-reveal>The challenge was not simply to redesign a set of screens. It was to understand what already existed, identify what should remain, and create a more cohesive foundation for the product moving forward.</p>
+    </div>
+  </div>
+</section>
+
+<section class="on-ink sec--band">
+  <div class="wrap" style="padding-top:104px;padding-bottom:104px">
+    <svg class="star" viewBox="0 0 40 40" width="44" height="44" aria-hidden="true"><path d="M20 0 C22 14 26 18 40 20 C26 22 22 26 20 40 C18 26 14 22 0 20 C14 18 18 14 20 0Z"></path></svg>
+    <p class="pull" style="margin-top:28px" data-reveal>The goal was not to make every market identical, but to create a shared foundation while preserving the flexibility required by different business and regulatory contexts.</p>
+  </div>
+</section>
+
+<!-- OPPORTUNITY -->
+<section class="wrap sec">
+  <div class="sec__grid">
+    <p class="eyebrow sec__label">The opportunity</p>
+    <div class="sec__main">
+      <h2 class="h2" data-reveal>More than a <em>redesign.</em></h2>
+      <p class="body" data-reveal>The new invoicing product was being shaped while the broader platform was also evolving. Three areas were changing at the same time.</p>
+      <div class="grid3" style="margin-top:12px">
+        <div class="tile" data-reveal style="--d:0"><span class="mono">Product</span><h3 class="h4">From fragmented functionality to a more cohesive product</h3><p>Existing features and country-specific solutions needed to be evaluated, reorganized, and brought into a clearer product structure.</p></div>
+        <div class="tile" data-reveal style="--d:1"><span class="mono">Technology</span><h3 class="h4">From the existing platform toward a microservices architecture</h3><p>The technical architecture was led by the Engineering and Technology teams, while the product experience evolved alongside that transformation.</p></div>
+        <div class="tile tile--field" data-reveal style="--d:2"><span class="mono">Design</span><h3 class="h4">From individual interfaces to a shared design foundation</h3><p>There was no established design system supporting the new product, so I needed to create a foundation that could grow with it.</p></div>
+      </div>
+      <p class="body" data-reveal>My role was not to define the technical architecture, but to own the product experience and work alongside the teams shaping the product and its implementation.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ROLE -->
+<section class="wrap sec">
+  <div class="sec__grid">
+    <p class="eyebrow sec__label">My role</p>
+    <div class="sec__main">
+      <h2 class="h2" data-reveal>Owning the product experience from an <em>early stage.</em></h2>
+      <p class="body" data-reveal>I joined the team as the Product Designer when the direction for the new invoicing product was still taking shape. Product and Technology had a general vision, but the experience itself had not yet been fully defined.</p>
+      <p class="body" data-reveal>I was responsible for shaping the product experience, from understanding the existing business and functionality to defining the information architecture, designing key workflows and interfaces, and building the initial design system.</p>
+      <div class="listcols" style="margin-top:12px">
+        <div class="tile tile--ink" data-reveal><span class="mono">I owned</span>
+          <ul class="list"><li>Information architecture</li><li>Product experience</li><li>UX and interaction design</li><li>UI design</li><li>Design direction</li><li>Design system foundations</li><li>Reusable components and patterns</li></ul>
+        </div>
+        <div class="tile" data-reveal style="--d:1"><span class="mono">I collaborated on</span>
+          <ul class="list"><li>Product requirements</li><li>Business priorities</li><li>Country-specific requirements</li><li>Regulatory constraints</li><li>Technical feasibility</li><li>Implementation with Engineering</li></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- UNDERSTANDING -->
+<section class="wrap sec">
+  <div class="sec__grid">
+    <p class="eyebrow sec__label">Understanding the problem</p>
+    <div class="sec__main">
+      <h2 class="h2" data-reveal>Before redesigning anything, I had to understand <em>the business.</em></h2>
+      <p class="body" data-reveal>Electronic invoicing was a new domain for me, and the existing product had already accumulated years of functionality, business rules, and country-specific requirements.</p>
+      <p class="body" data-reveal>Before proposing a new structure, I needed to understand how the existing solutions worked, what functionality they supported, and which requirements were essential to the new product.</p>
+      <div class="grid5" style="margin-top:12px">
+        <div class="tile" data-reveal style="--d:0"><span class="num">01</span><h3 class="h4">Documentation</h3><p>Reviewing existing product and business documentation</p></div>
+        <div class="tile" data-reveal style="--d:1"><span class="num">02</span><h3 class="h4">Existing product</h3><p>Exploring the widgets, functionality, and workflows already in use</p></div>
+        <div class="tile" data-reveal style="--d:2"><span class="num">03</span><h3 class="h4">Product conversations</h3><p>Working with the Product Owner to understand requirements, priorities, and existing functionality</p></div>
+        <div class="tile" data-reveal style="--d:3"><span class="num">04</span><h3 class="h4">Customer conversations</h3><p>Speaking with customers to better understand how the product was being used</p></div>
+        <div class="tile" data-reveal style="--d:4"><span class="num">05</span><h3 class="h4">Market research</h3><p>Reviewing competitors and product patterns to identify opportunities for a clearer experience</p></div>
+      </div>
+      <p class="body" data-reveal>Together, these inputs helped me build a clearer picture of the domain and provided the foundation for a new information architecture.</p>
+    </div>
+  </div>
+</section>
+
+<!-- IA -->
+<section class="wrap sec">
+  <div class="sec__grid">
+    <p class="eyebrow sec__label">Information architecture</p>
+    <div class="sec__main">
+      <h2 class="h2" data-reveal>Turning existing functionality into a <em>product structure.</em></h2>
+      <p class="body" data-reveal>The existing solutions contained functionality that had been added over time across different country-specific experiences. My first challenge was to map what already existed and determine how those capabilities should live within the new product.</p>
+      <p class="body" data-reveal>I created an initial information architecture that brought together the functionality from the existing solutions. I then worked with the Product Owner to evaluate what should remain, how features should be grouped, and whether they still made sense within the new experience.</p>
+      <p class="body" data-reveal>Competitive research and emerging product patterns also informed decisions around navigation, hierarchy, and ways to make the product easier to understand.</p>
+      <figure class="fig fig--wide" data-reveal="scale">
+        <div class="ph ph--169 ph--contain" data-label="Information architecture diagram"><img src="../assets/img/iofacturo/ia.png" alt="Simplified information architecture showing the main ioFacturo navigation groups and nested country-specific invoicing pages." loading="lazy" onerror="this.remove()"></div>
+        <figcaption><strong>Early product information architecture</strong><br>Mapping existing functionality and reorganizing it into a clearer product structure.</figcaption>
+      </figure>
+      <p class="pull" style="font-size:clamp(24px,2.6vw,36px);margin-top:16px" data-reveal>The goal wasn't to preserve every existing feature exactly as it was. It was to determine what still belonged in the product and how it could work as part of a more coherent system.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SCALING -->
+<section class="wrap sec">
+  <div class="sec__grid">
+    <p class="eyebrow sec__label">Scaling across markets</p>
+    <div class="sec__main">
+      <h2 class="h2" data-reveal>Shared foundations, <em>local flexibility.</em></h2>
+      <p class="body" data-reveal>The product was designed to support multiple Latin American markets, but expansion did not mean creating an identical experience for every country.</p>
+      <p class="body" data-reveal>Shared workflows and patterns could be standardized, while country-specific requirements still needed flexibility.</p>
+      <p class="body" data-reveal>The challenge was to identify what should remain consistent across the product and where the experience needed to adapt.</p>
+      <div class="compare" style="margin-top:12px">
+        <div class="tile tile--field" data-reveal><span class="mono">Shared product foundation</span>
+          <div class="pills" style="margin-top:6px"><span class="pill">Navigation</span><span class="pill">Information patterns</span><span class="pill">Components</span><span class="pill">Interaction patterns</span><span class="pill">Core workflows</span></div>
+        </div>
+        <div class="tile tile--gold" data-reveal style="--d:1"><span class="mono">Market-specific requirements</span>
+          <div class="pills" style="margin-top:6px"><span class="pill">Regulations</span><span class="pill">Tax document requirements</span><span class="pill">Conditional fields</span><span class="pill">Business rules</span></div>
+        </div>
+      </div>
+      <p class="caption" data-reveal>Consistency and flexibility were designed together rather than treated as opposite goals.</p>
+    </div>
+  </div>
+</section>
+
+<!-- DESIGNING THE EXPERIENCE -->
+<section class="wrap sec">
+  <div class="sec__grid">
+    <p class="eyebrow sec__label">Designing the experience</p>
+    <div class="sec__main">
+      <h2 class="h2" data-reveal>Turning complexity into <em>structure.</em></h2>
+      <p class="body" data-reveal>Three areas best represent how I approached the product experience: simplifying complex tax documents, creating a clearer structure for customers and products, and designing a product overview that helped users understand what was happening across the platform.</p>
+
+      <!-- 01 Tax documents -->
+      <div class="sub">
+        <span class="kicker">01 - Tax documents</span>
+        <h3 class="h3" data-reveal>Not all complexity belongs in the interface.</h3>
+        <p class="body" data-reveal>Creating tax documents was one of the most complex areas of the product.</p>
+        <p class="body" data-reveal>The interface needed to support extensive regulatory requirements and business rules, but presenting every possible field to the user would result in an overwhelming and difficult-to-use form.</p>
+        <p class="body" data-reveal>The challenge was to determine what information users truly needed to provide, and what complexity the system could handle in the background.</p>
+        <figure class="fig fig--wide" data-reveal="scale">
+          <div class="ph ph--wide ph--contain" data-label="Early tax-document form"><img src="../assets/img/iofacturo/tax-form.png" alt="Early ioFacturo tax-document form showing the number of fields required by regulatory and business rules." loading="lazy" onerror="this.remove()"></div>
+          <figcaption>The challenge: supporting complex requirements without turning the experience into an overwhelming form.</figcaption>
+        </figure>
+
+        <h4 class="h4" data-reveal>Asking for only what the user needs to provide.</h4>
+        <p class="body" data-reveal>I reviewed the available business rules and worked to distinguish between information that needed to come directly from the user and data that could be retrieved or completed by the system.</p>
+        <p class="body" data-reveal>When information could be obtained from another source and used to generate the required XML, I explored ways to avoid asking users to enter it again.</p>
+        <p class="body" data-reveal>The goal was not to remove necessary complexity, but to prevent users from having to manage complexity the system could handle for them.</p>
+        <div class="grid2 pair">
+            <div class="tile tile--gold" data-reveal><span class="mono">User input</span><p>Only information the user needs to provide.</p></div>
+            <div class="tile tile--ink" data-reveal style="--d:1"><span class="mono">System data</span><p>Information retrieved or completed automatically.</p></div>
+        </div>
+        <div class="duo">
+          <div class="duo__text">
+          <h4 class="h4" data-reveal>Translating business rules into interface behavior.</h4>
+          <p class="body" data-reveal>Many requirements were documented as business rules, including conditions that determined when certain fields were required, optional, visible, or hidden.</p>
+          <p class="body" data-reveal>While those rules existed in spreadsheets, I needed to translate them into visual behavior that was easier to understand and implement.</p>
+          </div>
+          <div class="duo__visual">
+          <div class="rtree" data-reveal>
+            <div class="rtree__node">User selects a value</div>
+            <span class="rtree__v" aria-hidden="true"></span>
+            <div class="rtree__node rtree__node--ink">System evaluates the business rule</div>
+            <span class="rtree__v rtree__v--short" aria-hidden="true"></span>
+            <div class="rtree__branches">
+              <div class="tile tile--field"><span class="mono">Required</span><p>Display the field and mark it as required.</p></div>
+              <div class="tile"><span class="mono">Optional</span><p>Display the field without requiring it.</p></div>
+              <div class="tile"><span class="mono">Hidden</span><p>Remove the field when it does not apply.</p></div>
+            </div>
+          </div>
+          <p class="caption" data-reveal>Turning written business rules into visible interaction logic.</p>
+          </div>
+        </div>
+
+        <h4 class="h4" style="margin-top:20px" data-reveal>Creating consistency across different document types.</h4>
+        <p class="body" data-reveal>Different tax documents required different information, but I looked for opportunities to maintain a familiar structure wherever possible.</p>
+        <p class="body" data-reveal>Consistent layouts, labeling, field patterns, and interaction behavior helped reduce unnecessary variation while still allowing the experience to support document-specific requirements.</p>
+        <div class="grid2 fig--wide">
+          <figure class="fig" data-reveal><div class="ph ph--43 ph--contain" data-label="Purchase invoice"><img src="../assets/img/iofacturo/purchase-invoice.png" alt="Purchase invoice form using the shared ioFacturo document structure." loading="lazy" onerror="this.remove()"></div><figcaption><span class="mono">Purchase invoice</span></figcaption></figure>
+          <figure class="fig" data-reveal style="--d:1"><div class="ph ph--43 ph--contain" data-label="Export invoice"><img src="../assets/img/iofacturo/export-invoice.png" alt="Export invoice form showing document-specific requirements within the shared ioFacturo layout." loading="lazy" onerror="this.remove()"></div><figcaption><span class="mono">Export invoice</span></figcaption></figure>
+        </div>
+        <div class="pills" data-reveal><span class="pill">Shared structure</span><span class="pill">Consistent labels</span><span class="pill">Conditional fields</span><span class="pill">Document-specific requirements</span></div>
+        <p class="pull" style="font-size:clamp(24px,2.6vw,36px)" data-reveal>The challenge was not to make every document identical. It was to create a familiar experience while supporting the differences that actually mattered.</p>
+      </div>
+
+      <!-- 02 Customers & products -->
+      <div class="sub">
+        <span class="kicker">02 - Customers &amp; products</span>
+        <h3 class="h3" data-reveal>Giving scattered information a clear home.</h3>
+        <p class="body" data-reveal>Customers and products were important parts of the invoicing workflow, but the existing functionality was dispersed rather than organized as dedicated product areas.</p>
+        <p class="body" data-reveal>As part of the new structure, I designed dedicated catalog experiences that made it easier to view, manage, and add records.</p>
+        <h4 class="h4" style="margin-top:12px" data-reveal>Reusing structure instead of redesigning the same problem twice.</h4>
+        <p class="body" data-reveal>Customer and product catalogs contained different information, but shared interaction needs. I used reusable patterns for tables, hierarchy, and actions while adapting each catalog to its content.</p>
+        <p class="body" data-reveal>I also considered which information users needed to see first and how to make the primary action clearly stand out from the surrounding content.</p>
+        <div class="grid2 fig--wide">
+          <figure class="fig" data-reveal><div class="ph ph--contain" data-label="Customers catalog"><img src="../assets/img/iofacturo/customers.png" alt="Customers catalog showing the table structure, information hierarchy, and primary action." loading="lazy" onerror="this.remove()"></div><figcaption><span class="mono">Customers</span></figcaption></figure>
+          <figure class="fig" data-reveal style="--d:1"><div class="ph ph--contain" data-label="Products catalog"><img src="../assets/img/iofacturo/products.png" alt="Products catalog using the same table patterns and interaction structure as the customers experience." loading="lazy" onerror="this.remove()"></div><figcaption><span class="mono">Products</span></figcaption></figure>
+        </div>
+        <div class="pills" data-reveal><span class="pill">Information hierarchy</span><span class="pill">Reusable table patterns</span><span class="pill">Primary CTA</span><span class="pill">Shared interaction structure</span></div>
+        <p class="caption" data-reveal>Similar needs were supported through shared patterns, creating a more consistent experience and reducing unnecessary variation.</p>
+      </div>
+
+      <!-- 03 Product overview -->
+      <div class="sub">
+        <span class="kicker">03 - Product overview</span>
+        <h3 class="h3" data-reveal>Giving users the bigger picture.</h3>
+        <p class="body" data-reveal>As more functionality came together in ioFacturo, users needed a way to quickly understand what was happening across their account.</p>
+        <p class="body" data-reveal>The dashboard was designed as a high-level overview of key product information while also providing direct paths into specific areas of the platform.</p>
+        <p class="mono" style="color:var(--field);margin-top:8px">The dashboard included</p>
+        <dl class="specs" data-reveal>
+          <div><dt>Plan usage</dt><dd>Key figures for the current plan.</dd></div>
+          <div><dt>Certificates</dt><dd>Certificate status and expiration information.</dd></div>
+          <div><dt>Catalogs</dt><dd>Access to customers, products, branches, and users.</dd></div>
+          <div><dt>Financial activity</dt><dd>A view of activity over time.</dd></div>
+          <div><dt>Issued documents</dt><dd>Document counts and status at a glance.</dd></div>
+        </dl>
+        <figure class="annot fig--wide" data-reveal="scale">
+          <div class="annot__img">
+            <img src="../assets/img/iofacturo/dashboard.png" alt="ioFacturo dashboard presenting account information, tax-document status, available credits, and direct paths into key product areas." loading="lazy" onerror="this.remove()">
+            <span class="annot__pin" style="--x:16.5%;--y:16%" aria-hidden="true">1</span>
+            <span class="annot__pin" style="--x:58.5%;--y:48%" aria-hidden="true">2</span>
+            <span class="annot__pin" style="--x:72.5%;--y:16%" aria-hidden="true">3</span>
+          </div>
+          <ol class="annot__legend">
+            <li><span class="annot__n" aria-hidden="true">1</span><div><b>Account overview</b><p>Key information from across the product.</p></div></li>
+            <li><span class="annot__n" aria-hidden="true">2</span><div><b>Document visibility</b><p>A quick view of important tax documents and their status.</p></div></li>
+            <li><span class="annot__n" aria-hidden="true">3</span><div><b>Direct paths</b><p>Cards and entry points that take users to specific modules.</p></div></li>
+          </ol>
+        </figure>
+        <p class="body" data-reveal>Decisions about what to surface were informed by user research, competitive analysis, business needs, and ongoing discussions with the Product Owner.</p>
+        <p class="body" data-reveal>The goal was not to show everything the product could do, but to prioritize the information and actions that were most useful as an entry point.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DESIGN SYSTEM -->
+<section class="on-ink sec--band">
+  <div class="wrap" style="padding-top:112px">
+    <div class="sec__grid">
+      <p class="eyebrow eyebrow--accent sec__label">Design system</p>
+      <div class="sec__main">
+        <h2 class="h2" data-reveal>Turning consistency into a <em>product capability.</em></h2>
+        <p class="body" data-reveal>To support expansion across markets, I led the creation of a modular design system that aligned visual language, interaction patterns, and reusable components. It gave teams a shared foundation while allowing country-specific requirements to be incorporated without rebuilding the experience.</p>
+
+        <div class="sub">
+          <h3 class="h3" data-reveal>From brand colors to a product color system.</h3>
+          <p class="body" data-reveal>I started with the primary and secondary colors defined by Marketing and expanded them into scales for product interfaces. I also introduced neutral and semantic colors for text, error, success, and warning states, creating a palette that could support more than the original brand applications.</p>
+          <h3 class="h3" style="margin-top:12px" data-reveal>Creating a hierarchy for product interfaces.</h3>
+          <p class="body" data-reveal>The typeface had already been selected as part of the brand. I translated it into a consistent hierarchy for headings, titles, body text, and supporting content, helping establish clearer structure across product screens and flows.</p>
+          <figure class="fig fig--wide" data-reveal="scale"><div class="ph ph--dark ph--contain" data-label="Color, typography &amp; spacing foundations"><img src="../assets/img/iofacturo/ds-foundations.svg" alt="ioFacturo design system foundations showing the color palette, typography scale, and spacing system." loading="lazy" onerror="this.remove()"></div><figcaption><span class="mono">Color, typography &amp; spacing foundations</span></figcaption></figure>
+        </div>
+
+        <div class="sub">
+          <h3 class="h3" data-reveal>Growing the component library with the product.</h3>
+          <p class="body" data-reveal>Rather than defining every possible component before designing the product, I started with the patterns it needed most. As new flows introduced new requirements, I evaluated which solutions could be reused and added or updated components accordingly.</p>
+          <ol class="steps5 fig--wide" data-reveal>
+            <li>Product need</li><li>UI pattern</li><li>Reusability check</li><li>Create or update component</li><li>Reuse</li>
+          </ol>
+          <figure class="fig fig--wide" data-reveal="scale"><div class="ph ph--dark ph--contain" data-label="Components, light and dark"><img src="../assets/img/iofacturo/ds-components.svg" alt="ioFacturo interface components shown in light and dark themes, including dropdowns, form inputs, and checkbox states." loading="lazy" onerror="this.remove()"></div><figcaption><span class="mono">Components</span></figcaption></figure>
+        </div>
+
+        <div class="sub">
+          <h3 class="h3" data-reveal>Designing for states, errors, and alternative scenarios.</h3>
+          <p class="body" data-reveal>Each flow considered more than the ideal path. I designed interfaces for errors, empty states, conditional behavior, and alternative scenarios. This was especially important when creating tax documents, where different inputs and business rules could change what users needed to see or do next.</p>
+          <figure class="fig fig--wide" data-reveal="scale"><div class="ph ph--dark ph--contain" data-label="Required-field validation"><img src="../assets/img/iofacturo/ds-validation.png" alt="Required-field validation during invoice creation in ioFacturo." loading="lazy" onerror="this.remove()"></div><figcaption><span class="mono">Required-field validation during invoice creation</span></figcaption></figure>
+        </div>
+
+        <div class="sub">
+          <h3 class="h3" data-reveal>Evolving with the product and the tools.</h3>
+          <p class="body" data-reveal>The first version of the system used the Figma capabilities available at the time. As the product evolved and Figma introduced variables, I migrated the color foundations into variables and created tokens that made the system easier to maintain. This also supported light and dark themes.</p>
+          <div class="timeline">
+            <div class="tile" data-reveal style="--d:0"><span class="mono">Version 1</span><h4 class="h4">Static styles</h4></div>
+            <div class="tile" data-reveal style="--d:2"><span class="mono">Version 2</span><h4 class="h4">Figma variables</h4></div>
+            <div class="tile" data-reveal style="--d:4"><span class="mono">Version 3</span><h4 class="h4">Tokens + light/dark themes</h4></div>
+          </div>
+        </div>
+
+        <div class="sub">
+          <h3 class="h3" data-reveal>Improving the visual direction and accessibility.</h3>
+          <p class="body" data-reveal>As the product matured, I proposed an updated color palette that felt more contemporary and supported better color contrast. I used accessibility plugins to evaluate combinations, then updated the foundations, components, and product screens to reflect the new visual direction.</p>
+          <div class="grid2 fig--wide">
+            <figure class="fig" data-reveal><div class="ph ph--dark ph--43 ph--contain" data-label="Earlier color direction"><img src="../assets/img/iofacturo/palette-earlier.png" alt="Earlier ioFacturo color palette showing primary, secondary, neutral, and error scales." loading="lazy" onerror="this.remove()"></div><figcaption><span class="mono">Earlier color direction</span></figcaption></figure>
+            <figure class="fig" data-reveal style="--d:1"><div class="ph ph--dark ph--43 ph--contain" data-label="Updated product colors"><img src="../assets/img/iofacturo/palette-updated.png" alt="Updated ioFacturo color scales showing blue, green, neutral, and error colors with contrast annotations." loading="lazy" onerror="this.remove()"></div><figcaption><span class="mono">Updated product colors</span></figcaption></figure>
+          </div>
+        </div>
+
+        <div class="sub">
+          <h3 class="h3" data-reveal>Designing beyond desktop.</h3>
+          <p class="body" data-reveal>The design foundations included layout grids and responsive considerations as the product expanded across screen sizes. I explored how layouts and components could adapt to desktop, tablet, and mobile, beyond the primary desktop experience.</p>
+          <figure class="devices fig--wide" data-reveal="scale">
+            <div class="devices__stage">
+              <img class="d-desk" src="../assets/img/iofacturo/desktop.png" alt="ioFacturo dashboard adapted for desktop." loading="lazy" onerror="this.remove()">
+              <img class="d-tab" src="../assets/img/iofacturo/tablet.png" alt="ioFacturo dashboard adapted for tablet." loading="lazy" onerror="this.remove()">
+              <img class="d-phone" src="../assets/img/iofacturo/phone.png" alt="ioFacturo dashboard adapted for mobile." loading="lazy" onerror="this.remove()">
+            </div>
+            <figcaption class="tags-o"><span>Desktop</span><span>Tablet</span><span>Phone</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CORE EXPERIENCE -->
+<section class="wrap sec">
+  <div class="sec__grid">
+    <p class="eyebrow sec__label">Core experience</p>
+    <div class="sec__main">
+      <h2 class="h2" data-reveal>Making invoicing feel <em>guided,</em> not technical.</h2>
+      <p class="body" data-reveal>The redesign translated complex regulatory requirements into a clearer sequence of decisions. Rather than exposing every field at once, the experience guides users through the information needed to create and issue an invoice with greater confidence.</p>
+      <div class="sub">
+        <span class="kicker">Guided invoicing</span>
+        <h3 class="h3" data-reveal>A clearer path from setup to issuance.</h3>
+        <p class="body" data-reveal>The flow organizes information progressively, clarifies required actions, and provides feedback at the moments where users are most likely to hesitate or make errors.</p>
+        <div class="grid3">
+          <div class="tile" data-reveal style="--d:0"><span class="mono">01 - Progressive disclosure</span><p>Show only the information required at each stage.</p></div>
+          <div class="tile" data-reveal style="--d:1"><span class="mono">02 - Clear validation</span><p>Explain errors close to the field and how to resolve them.</p></div>
+          <div class="tile" data-reveal style="--d:2"><span class="mono">03 - Visible system status</span><p>Confirm progress, processing, and successful issuance.</p></div>
+        </div>
+        <figure class="fig fig--wide" data-reveal="scale"><div class="ph ph--169 ph--contain" data-label="Invoicing flow"><img src="../assets/img/iofacturo/invoicing-flow.png" alt="ioFacturo invoicing flow showing progressive disclosure, field validation, and successful issuance feedback." loading="lazy" onerror="this.remove()"></div></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ROLLOUT -->
+<section class="wrap sec">
+  <div class="sec__grid">
+    <p class="eyebrow sec__label">Rollout</p>
+    <div class="sec__main">
+      <h2 class="h2" data-reveal>Replacing the fragmented experience <em>gradually.</em></h2>
+      <p class="body" data-reveal>The new product did not replace every existing country-specific experience at once.</p>
+      <p class="body" data-reveal>The rollout began with markets that had fewer customers and with companies that did not operate across multiple countries, making the migration process easier to manage before expanding further.</p>
+      <div class="phases">
+        <div class="tile" data-reveal style="--d:0"><span class="mono">Phase 01</span><h3 class="h4">Smaller markets</h3></div>
+        <div class="tile" data-reveal style="--d:2"><span class="mono">Phase 02</span><h3 class="h4">Additional markets and users</h3></div>
+        <div class="tile" data-reveal style="--d:4"><span class="mono">Phase 03</span><h3 class="h4">More complex migration scenarios</h3></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OUTCOME -->
+<section class="wrap sec">
+  <div class="sec__grid">
+    <p class="eyebrow sec__label">Outcome</p>
+    <div class="sec__main">
+      <h2 class="h2" data-reveal>From fragmented solutions to a stronger <em>product foundation.</em></h2>
+      <div class="outcomes">
+        <div class="tile" data-reveal style="--d:0"><span class="num">01</span><h3 class="h4">A more cohesive product experience</h3><p>Country-specific functionality was brought together under a clearer product structure.</p></div>
+        <div class="tile" data-reveal style="--d:1"><span class="num">02</span><h3 class="h4">Shared patterns and reusable foundations</h3><p>Components, design patterns, and foundations created more consistency across the product.</p></div>
+        <div class="tile" data-reveal style="--d:2"><span class="num">03</span><h3 class="h4">A system built to evolve</h3><p>The design system grew with the product and later evolved to incorporate variables, tokens, and theming.</p></div>
+        <div class="tile" data-reveal style="--d:3"><span class="num">04</span><h3 class="h4">A gradual transition from existing solutions</h3><p>The new product progressively replaced the fragmented country-specific experiences.</p></div>
+      </div>
+      <p class="body" data-reveal>The project was not a one-time redesign. It established a product and design foundation that could continue evolving as new markets, requirements, and capabilities were introduced.</p>
+    </div>
+  </div>
+</section>
+
+<!-- REFLECTION -->
+<section class="on-field sec--band">
+  <div class="wrap" style="padding-top:112px">
+    <div class="sec__grid">
+      <p class="eyebrow eyebrow--accent sec__label">Reflection</p>
+      <div class="sec__main">
+        <h2 class="h2" data-reveal>What this project taught me about <em>designing for scale.</em></h2>
+        <p class="lead" data-reveal>Working on ioFacturo taught me that scalability does not come from making everything identical.</p>
+        <p class="lead" data-reveal>Designing for multiple markets required understanding what needed to remain consistent, where flexibility was necessary, and how to build foundations that could evolve as the product changed.</p>
+        <p class="lead" data-reveal>It also reinforced the importance of deciding where complexity belongs. Users should not have to manage every business rule, technical dependency, or regulatory requirement when the product can handle part of that complexity for them.</p>
+        <p class="pull" style="margin-top:12px" data-reveal>For me, the project became an exercise in turning complexity into structure, at the product, interface, and system levels.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEXT -->
+<section class="wrap" style="padding-top:112px;padding-bottom:112px">
+  <h2 class="h2" data-reveal>Explore more <em>work.</em></h2>
+  <div class="next">
+    <a href="maya.html"><span class="mono">02 - Maya</span><span class="h3">Designing a banking experience where conversation became the interface. →</span></a>
+    <a href="srap.html"><span class="mono">03 - SRAP</span><span class="h3">Digitizing cancer reporting without disrupting the people doing the work. →</span></a>
+  </div>
+  <p style="margin-top:32px"><a class="ulink" href="../index.html#work">Back to selected work <span aria-hidden="true">→</span></a></p>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__in">
+    <span>Lucero Rojas, Product Designer</span>
+    <span>© 2026</span>
+  </div>
+</footer>
+<script src="../assets/js/site.js"></script>
+</body>
+</html>
